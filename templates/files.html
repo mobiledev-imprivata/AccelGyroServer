@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>AccelGyro</title>
+	<h1>Logfiles from AccelGyro app</h1>
+</head>
+<body>
+<ul>
+	{% for file in files %}
+	<li><a href="logs/{{ file }}">{{ file }}</a></li>
+	{% endfor %}
+</ul>
+</body>
+</html>
