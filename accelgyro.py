@@ -55,7 +55,7 @@ def write_to_file(message):
 
 		# event type was user, so write it to all outfiles
 		for outfile in outfiles.values():
-			outfiles.write(text)
+			outfile.write(text)
 
 	for outfile in outfiles.values():
 		outfile.close()
